@@ -1,0 +1,13 @@
+# Target labels
+ googletest_repo
+# Source files and their labels
+/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/CMakeFiles/googletest_repo
+/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/CMakeFiles/googletest_repo.rule
+/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/CMakeFiles/googletest_repo-complete.rule
+/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/googletest_repo-prefix/src/googletest_repo-stamp/googletest_repo-install.rule
+/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/googletest_repo-prefix/src/googletest_repo-stamp/googletest_repo-mkdir.rule
+/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/googletest_repo-prefix/src/googletest_repo-stamp/googletest_repo-download.rule
+/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/googletest_repo-prefix/src/googletest_repo-stamp/googletest_repo-update.rule
+/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/googletest_repo-prefix/src/googletest_repo-stamp/googletest_repo-patch.rule
+/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/googletest_repo-prefix/src/googletest_repo-stamp/googletest_repo-configure.rule
+/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/googletest_repo-prefix/src/googletest_repo-stamp/googletest_repo-build.rule

@@ -1,0 +1,13 @@
+# Target labels
+ cpr_repo
+# Source files and their labels
+/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/CMakeFiles/cpr_repo
+/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/CMakeFiles/cpr_repo.rule
+/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/CMakeFiles/cpr_repo-complete.rule
+/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/cpr_repo-prefix/src/cpr_repo-stamp/cpr_repo-install.rule
+/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/cpr_repo-prefix/src/cpr_repo-stamp/cpr_repo-mkdir.rule
+/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/cpr_repo-prefix/src/cpr_repo-stamp/cpr_repo-download.rule
+/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/cpr_repo-prefix/src/cpr_repo-stamp/cpr_repo-update.rule
+/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/cpr_repo-prefix/src/cpr_repo-stamp/cpr_repo-patch.rule
+/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/cpr_repo-prefix/src/cpr_repo-stamp/cpr_repo-configure.rule
+/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/cpr_repo-prefix/src/cpr_repo-stamp/cpr_repo-build.rule

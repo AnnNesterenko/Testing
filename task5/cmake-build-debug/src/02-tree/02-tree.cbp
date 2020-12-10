@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="02-tree"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\00-aplusb\;CMake Files\src\01-simple-library\;CMake Files\src\02-tree\;CMake Files\src\03-weather\;CMake Files\cmake\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\googletest_repo-prefix\;CMake Files\cmake-build-debug\googletest_repo-prefix\tmp\;CMake Files\cmake-build-debug\cpr_repo-prefix\;CMake Files\cmake-build-debug\cpr_repo-prefix\tmp\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\Boost-1.74.0\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.74.0\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.74.0\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\boost_system-1.74.0\;CMake Files\examples\;CMake Files\tests\;CMake Files\tests\00-aplusb\;CMake Files\tests\01-simple-library\;CMake Files\tests\02-tree\;CMake Files\tests\03-weather\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/src/02-tree"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02-tree">
+				<Option output="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/src/02-tree/lib02-tree.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/src/02-tree"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add directory="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/3rdparty/include"/>
+					<Add directory="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 02-tree"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02-tree/fast">
+				<Option output="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/src/02-tree/lib02-tree.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/src/02-tree"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_FILESYSTEM_DYN_LINK"/>
+					<Add directory="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/3rdparty/include"/>
+					<Add directory="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 02-tree/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/src/02-tree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/include/Tree.h">
+			<Option target="02-tree"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/src/02-tree/Tree.cpp">
+			<Option target="02-tree"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/src/00-aplusb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\00-aplusb\"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/src/01-simple-library/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\01-simple-library\"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/src/02-tree/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\02-tree\"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/src/03-weather/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\03-weather\"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake/CodeCoverage.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/googletest_repo-prefix/tmp/googletest_repo-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\googletest_repo-prefix\tmp\"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/cmake-build-debug/cpr_repo-prefix/tmp/cpr_repo-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\cpr_repo-prefix\tmp\"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/../../../../../../usr/local/lib/cmake/BoostDetectToolset-1.74.0.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/../../../../../../usr/local/lib/cmake/Boost-1.74.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\Boost-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/../../../../../../usr/local/lib/cmake/Boost-1.74.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\Boost-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/../../../../../../usr/local/lib/cmake/boost_headers-1.74.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/../../../../../../usr/local/lib/cmake/boost_headers-1.74.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\boost_headers-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/../../../../../../usr/local/lib/cmake/boost_filesystem-1.74.0/boost_filesystem-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/../../../../../../usr/local/lib/cmake/boost_filesystem-1.74.0/boost_filesystem-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/../../../../../../usr/local/lib/cmake/boost_filesystem-1.74.0/libboost_filesystem-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/../../../../../../usr/local/lib/cmake/boost_filesystem-1.74.0/libboost_filesystem-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/../../../../../../usr/local/lib/cmake/boost_filesystem-1.74.0/libboost_filesystem-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/../../../../../../usr/local/lib/cmake/boost_filesystem-1.74.0/libboost_filesystem-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\boost_filesystem-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/../../../../../../usr/local/lib/cmake/boost_system-1.74.0/boost_system-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\boost_system-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/../../../../../../usr/local/lib/cmake/boost_system-1.74.0/boost_system-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\boost_system-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/../../../../../../usr/local/lib/cmake/boost_system-1.74.0/libboost_system-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\boost_system-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/../../../../../../usr/local/lib/cmake/boost_system-1.74.0/libboost_system-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\boost_system-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/../../../../../../usr/local/lib/cmake/boost_system-1.74.0/libboost_system-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\boost_system-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/../../../../../../usr/local/lib/cmake/boost_system-1.74.0/libboost_system-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\boost_system-1.74.0\"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/tests/00-aplusb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\00-aplusb\"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/tests/01-simple-library/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\01-simple-library\"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/tests/02-tree/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\02-tree\"/>
+		</Unit>
+		<Unit filename="/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/tests/03-weather/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\03-weather\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

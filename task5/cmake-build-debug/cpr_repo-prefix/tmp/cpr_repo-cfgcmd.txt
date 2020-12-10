@@ -1,0 +1,1 @@
+cmd='/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake;-DCMAKE_INSTALL_PREFIX=/Users/annanesterenko/Desktop/test/TechProgTemplates/task5/3rdparty;-DCMAKE_CXX_STANDARD=14;-DOPENSSL_ROOT_DIR=/usr/local/opt/openssl@1.1;-DOPENSSL_LIBRARIES=/usr/local/opt/openssl@1.1/lib;-DCMAKE_POSITION_INDEPENDENT_CODE=ON;-GCodeBlocks - Unix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'
